@@ -17,6 +17,8 @@
 - lint-staged ()
 - prettier ()
 - ts-jest ( )
+- ts-node ( Uma biblioteca que executa códigos typescript em tempo real)
+- Nodemon ( server para nao precisar restarta a aplicação ele fica online o tempo todo)
 - tsc-alias
 - tsconfig-paths ()
 - typescript ()
@@ -32,3 +34,8 @@
 - BREAKING CHANGE: Quando mudamos algo muito grande
 
 - chore: quando fazemos alguma mudança relacionada a setup
+
+
+# Scripts da Aplicação  
+
+- yarn start:dev (Server para iniciar o ambiente de desenvolvimento )
