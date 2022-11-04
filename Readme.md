@@ -11,7 +11,7 @@
 - typescript-eslint/eslint-plugin (Para poder utilizar o eslint em conjunto com typescript)
 - typescript-eslint/parser ( )
 - eslint (Para padronizar o código )
-- eslint-config-prettier (Para poder utilizar o eslint junto com prettier)
+- eslint-config-prettier (Para poder utilizar o eslint junto com prettier e desativar regras do eslint que conflite com prettier)
 - git-commit-msg-linter ( para poder padronizar as mensagem do commit no formato conventional commit)
 - Husk (para nao deixar fazer commit caso algo esteja errado)
 - lint-staged ()
@@ -35,7 +35,6 @@
 
 - chore: quando fazemos alguma mudança relacionada a setup
 
-
-# Scripts da Aplicação  
+# Scripts da Aplicação
 
 - yarn start:dev (Server para iniciar o ambiente de desenvolvimento )
