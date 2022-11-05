@@ -56,3 +56,5 @@
 # Observações
 
 - hooks pre-push nao esta funcionando na versão atual
+
+- As vezes quando o pre commit buga podemos npx prettier --write . para corrigir os erros
