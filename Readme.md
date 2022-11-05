@@ -1,27 +1,31 @@
+# Para utilizar 
+
+- Para utilizar esse repo e so clonar e ser fliz 
+
+
+
 # Documento para Aplicação
 
 - Nessa aplicação utilizaremos as seguintes libs
 
 # DevDependencies
 
--- Types
-
 - Express
 - jest (Para teste unitários na aplicação)
 - typescript-eslint/eslint-plugin (Para poder utilizar o eslint em conjunto com typescript)
-- typescript-eslint/parser ( )
+- typescript-eslint/parser
 - eslint (Para padronizar o código )
 - eslint-config-prettier (Para poder utilizar o eslint junto com prettier e desativar regras do eslint que conflite com prettier)
 - git-commit-msg-linter ( para poder padronizar as mensagem do commit no formato conventional commit)
 - Husk (Para criar hooks de commit, definindo comando para ser executando antes do commit)
 - lint-staged (Para executar comandos em arquivos que estão dentro do commit)
 - prettier ( Para organiza)
-- ts-jest ( )
+- ts-jest (Para o Ts entender os test gerado pelo jest)
 - ts-node ( Uma biblioteca que executa códigos typescript em tempo real)
 - Nodemon ( server para nao precisar restarta a aplicação ele fica online o tempo todo)
-- tsc-alias
-- tsconfig-paths ()
-- typescript ()
+- tsc-alias(Para compilar o relative path e converte ele para os paths normais que utilizamos )
+- tsconfig-paths (Para poder usar os relatives paths com ts)
+- typescript
 
 # Padrões de commit
 
@@ -47,14 +51,17 @@
 
 - test:staged ( Script que sera executando com o lint-staged)
 
-- build (Para builda e compilar os arquivos TS )
+- build (Para bulida e compilar os arquivos TS )
 
 - start ( Para iniciar o ambiente de produção)
 
 - test:push ()
 
+
 # Observações
 
 - hooks pre-push nao esta funcionando na versão atual
 
-- As vezes quando o pre commit buga podemos analisar caso nao ouver erro mesmo e confirmamos que foi bug podemos usar o  'npx prettier --write .' corrigir os problemas de formato de todos os arquivos não formatados
+- As vezes quando o pre commit buga podemos analisar caso nao ouve erro mesmo e confirmamos que foi bug podemos usar o 'npx prettier --write .' corrigir os problemas de formato de todos os arquivos não formatados
+
+- Estamos utilizando relatives path onde podemos colocar @/ ao invés dos ../../
