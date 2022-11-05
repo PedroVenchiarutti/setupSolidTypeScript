@@ -1,6 +1,6 @@
 # Documento para Aplicação
 
-- Nessa aplicacao utilizaremos as seguintes libs
+- Nessa aplicação utilizaremos as seguintes libs
 
 # DevDependencies
 
@@ -39,7 +39,7 @@
 
 - yarn start:dev (Server para iniciar o ambiente de desenvolvimento )
 
-- husky:prepare (Criando arquivo de configuracao do husky)
+- husky:prepare (Criando arquivo de configuração do husky)
 
 - test (Para se nao tiver nem um teste ele passar mesmo assim)
 
@@ -47,4 +47,12 @@
 
 - test:staged ( Script que sera executando com o lint-staged)
 
+- build (Para builda e compilar os arquivos TS )
+
+- start ( Para iniciar o ambiente de produção)
+
 - test:push ()
+
+# Observações
+
+- hooks pre-push nao esta funcionando na versão atual
