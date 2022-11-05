@@ -1,3 +1,7 @@
-import Person from "@/index"
+class Tree {
+  log() {
+    console.log("Tree")
+  }
+}
 
-console.log(new Person().sayHello())
+export default Tree

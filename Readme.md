@@ -57,4 +57,4 @@
 
 - hooks pre-push nao esta funcionando na versão atual
 
-- As vezes quando o pre commit buga podemos npx prettier --write . para corrigir os erros
+- As vezes quando o pre commit buga podemos analisar caso nao ouver erro mesmo e confirmamos que foi bug podemos usar o  'npx prettier --write .' corrigir os problemas de formato de todos os arquivos não formatados
