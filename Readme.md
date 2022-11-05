@@ -38,3 +38,11 @@
 # Scripts da Aplicação
 
 - yarn start:dev (Server para iniciar o ambiente de desenvolvimento )
+
+- husky:prepare (Criando arquivo de configuracao do husky)
+
+- test (Para se nao tiver nem um teste ele passar mesmo assim)
+
+- test:watch( Teste que sera usado em ambiente dev)
+
+- test:staged ( Script que sera executando com o lint-staged)
