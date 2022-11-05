@@ -46,3 +46,5 @@
 - test:watch( Teste que sera usado em ambiente dev)
 
 - test:staged ( Script que sera executando com o lint-staged)
+
+- test:push ()
