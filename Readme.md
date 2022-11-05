@@ -15,7 +15,7 @@
 - git-commit-msg-linter ( para poder padronizar as mensagem do commit no formato conventional commit)
 - Husk (Para criar hooks de commit, definindo comando para ser executando antes do commit)
 - lint-staged (Para executar comandos em arquivos que estão dentro do commit)
-- prettier ()
+- prettier ( Para organiza)
 - ts-jest ( )
 - ts-node ( Uma biblioteca que executa códigos typescript em tempo real)
 - Nodemon ( server para nao precisar restarta a aplicação ele fica online o tempo todo)
