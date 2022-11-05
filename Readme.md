@@ -1,8 +1,6 @@
-# Para utilizar 
+# Para utilizar
 
-- Para utilizar esse repo e so clonar e ser fliz 
-
-
+- Para utilizar esse repo e so clonar e ser fliz
 
 # Documento para Aplicação
 
@@ -57,7 +55,6 @@
 
 - test:push ()
 
-
 # Observações
 
 - hooks pre-push nao esta funcionando na versão atual
@@ -65,3 +62,9 @@
 - As vezes quando o pre commit buga podemos analisar caso nao ouve erro mesmo e confirmamos que foi bug podemos usar o 'npx prettier --write .' corrigir os problemas de formato de todos os arquivos não formatados
 
 - Estamos utilizando relatives path onde podemos colocar @/ ao invés dos ../../
+
+- As vezes voce pode clonar o repo e test e o husky nao funcionar ai voce so precisa refazer apagando a pasta husky e iniciando novamente com yarn:prepare e depois criar os pre-commit
+
+- Para criar o primeiro pre-commit voce pode usar npx husky add .husky/pre-commit "yarn lint-staged"
+
+- Para criar o pre-commit de conventional commit npx husky add .husky/commit-msg ".git/hooks/commit-msg $1" verifica se ficou uma aspa dentro do arquivo .husky pre-commit e remova
